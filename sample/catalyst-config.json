@@ -1,0 +1,18 @@
+{
+	"deployment": {
+		"name": "sample",
+		"stack": "java8",
+		"type": "integration",
+		"integration_config": [
+			{
+				"service": "ZohoCliq",
+				"handlers": {
+					"function_handler": "com.handlers.FunctionHandler"
+				}
+			}
+		]
+	},
+	"execution": {
+		"main": "Sample"
+	}
+}
